@@ -1,0 +1,6 @@
+
+_ReSharper.FontListPicker/
+FontListPicker/Bin/
+FontListPicker/obj/
+*.user
+*.suo
