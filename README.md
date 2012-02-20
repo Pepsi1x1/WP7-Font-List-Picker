@@ -1,5 +1,5 @@
 After searching the web I couln't find a *good* example of a font chooser for Windows Phone 7,
-this will work with either 7.0 NoDo or 7.1 Mango!
+so I put this together, this will work with either 7.0 NoDo or 7.1 Mango!
 
 Ive included three custon fonts to show how that works too.
 One is embedded with Expression Blend using the Font Manager
