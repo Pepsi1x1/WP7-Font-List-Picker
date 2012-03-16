@@ -46,7 +46,7 @@
                                 SelectionChanged="LstPickerSelectionChanged"
                                 Background="White">
                 
-                <!--Bind the list picker items to display the font name
+                <!--Bind the standard list picker items to display the font name
                     and render them with the font family-->
                 <toolkit:ListPicker.ItemTemplate>
                     <DataTemplate>
@@ -55,6 +55,13 @@
                                    FontFamily="{Binding Family}"/>
                     </DataTemplate>
                 </toolkit:ListPicker.ItemTemplate>
+                 <!--Bind the full screen list picker items to display the font name
+                    and render them with the font family-->
+                <toolkit:ListPicker.FullModeItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding FontName}" FontFamily="{Binding Family}"/>
+                            </DataTemplate>
+                        </toolkit:ListPicker.FullModeItemTemplate>
             </toolkit:ListPicker>
         </Grid>
     </Grid>
